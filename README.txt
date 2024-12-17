@@ -17,7 +17,12 @@ capa: input for capacitors, add lists inside this list to include more capacitor
     The form: [xposition(meter), yposition(meter), capacitance(pico farad)]
 
 dist: distance between the plates (in meter)
-voltpos: point where the voltage is wanted to be measured. (in meter)
+voltpos: point where the desired quantities are wanted to be measured. (in meter)
+    -> Can be a list of points
+
+what: What do you want to plot? 
+options: - 'volt': time-domain voltage
+         - 'Z': Transfer impedance
 
 {
     "epsr": 1, 
